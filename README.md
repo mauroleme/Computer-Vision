@@ -2,6 +2,10 @@
 ### Trabalho Prático · Visão por Computador · MEEC / IPB 2025–2026
 **Alunos:** Caio Sant'Ana Oliveira (52963) - Mauro da Silva Leme (a52965)
 
+
+<img width="1945" height="1271" alt="image" src="https://github.com/user-attachments/assets/d60b5168-5101-4ae3-8df8-905621e022f2" />
+
+
 ---
 
 ## Onde está o código principal e como correr
