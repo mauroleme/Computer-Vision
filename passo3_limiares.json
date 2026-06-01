@@ -1,0 +1,114 @@
+{
+  "versao": "v2-per-parque",
+  "G28": {
+    "logica": "maioria_3_em_4",
+    "min_votos": 3,
+    "usa_f4": true,
+    "feats_usar": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ],
+    "features_desc": {
+      "f1": "[unsharp] std_intensity",
+      "f2": "[gauss] glcm_contrast",
+      "f3": "[raw] std_intensity",
+      "f4": "[unsharp] n_cantos (t=0.05, d=3)"
+    },
+    "thresholds": {
+      "f1": 0.20136011513748775,
+      "f2": 5.445026637953928,
+      "f3": 0.1584165582739317,
+      "f4": 5.137123745819398
+    },
+    "directions": {
+      "f1": "gt",
+      "f2": "gt",
+      "f3": "gt",
+      "f4": "gt"
+    },
+    "accs_indiv": {
+      "f1": 91.8,
+      "f2": 91.9,
+      "f3": 91.1,
+      "f4": 84.467
+    },
+    "acc_calib": 92.333,
+    "n_calib": 3000
+  },
+  "G40": {
+    "logica": "maioria_3_em_4",
+    "min_votos": 3,
+    "usa_f4": true,
+    "feats_usar": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ],
+    "features_desc": {
+      "f1": "[median_gauss] p90_p10",
+      "f2": "[unsharp] dark_ratio",
+      "f3": "[unsharp_gauss] std_intensity",
+      "f4": "[gauss_unsharp] n_cantos (t=0.01, d=2)"
+    },
+    "thresholds": {
+      "f1": 0.25246091192890696,
+      "f2": 0.2056344276841171,
+      "f3": 0.128337445800937,
+      "f4": 6.070234113712375
+    },
+    "directions": {
+      "f1": "gt",
+      "f2": "gt",
+      "f3": "gt",
+      "f4": "gt"
+    },
+    "accs_indiv": {
+      "f1": 90.533,
+      "f2": 88.5,
+      "f3": 89.033,
+      "f4": 80.7
+    },
+    "acc_calib": 91.733,
+    "n_calib": 3000
+  },
+  "G100": {
+    "logica": "maioria_3_em_4",
+    "min_votos": 3,
+    "usa_f4": true,
+    "feats_usar": [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ],
+    "features_desc": {
+      "f1": "[median_gauss] glcm_homogeneity",
+      "f2": "[gauss_median] sobel_mean",
+      "f3": "[median_gauss] prewitt_mean",
+      "f4": "[median] n_cantos (t=0.05, d=3)"
+    },
+    "thresholds": {
+      "f1": 0.567394234165322,
+      "f2": 0.04226989666803137,
+      "f3": 0.04042683531863166,
+      "f4": 0.0
+    },
+    "directions": {
+      "f1": "lt",
+      "f2": "gt",
+      "f3": "gt",
+      "f4": "gt"
+    },
+    "accs_indiv": {
+      "f1": 91.067,
+      "f2": 88.833,
+      "f3": 88.767,
+      "f4": 83.833
+    },
+    "acc_calib": 89.433,
+    "n_calib": 3000
+  }
+}
