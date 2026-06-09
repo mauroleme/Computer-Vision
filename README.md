@@ -28,9 +28,9 @@ passo5_pipeline_visual.py → gera imagens explicativas do pipeline passo a pass
 passo6_app_parque.py   →  APLICAÇÃO PRINCIPAL — demo interactiva para o professor
 ```
 
-### O que mostrar ao professor
+### principais questões
 
-| Pergunta do professor | Ficheiro a abrir |
+| Pergunta | Ficheiro a abrir |
 |---|---|
 | "Podem fazer uma demo?" | `passo6_app_parque.py` — abre a app, carrega imagem, classifica |
 | "Como escolheram os filtros?" | `passo2_eda.py` / `passo2b_per_park.py` — Fisher ratio e accuracy por feature |
