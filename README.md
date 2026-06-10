@@ -25,7 +25,7 @@ passo4_avaliacao_final.py → avalia no split TEST nunca visto (resultados finai
        ↓
 passo5_pipeline_visual.py → gera imagens explicativas do pipeline passo a passo
        ↓
-passo6_app_parque.py   →  APLICAÇÃO PRINCIPAL — demo interactiva para o professor
+passo6_app_parque.py   →  APLICAÇÃO PRINCIPAL — demo interactiva para o utilizador
 ```
 
 ### principais questões
@@ -51,11 +51,11 @@ passo6_app_parque.py   →  APLICAÇÃO PRINCIPAL — demo interactiva para o pr
 | Ponto forte | Porquê |
 |---|---|
 | **Totalmente explicável** | Cada decisão tem um valor numérico associado — é possível ver exactamente porquê uma vaga foi classificada como ocupada (F1=0.51 < 0.567, F2=0.061 > 0.042, etc.) |
-| **Sem caixa negra** | Não usa redes neuronais — o professor pode questionar qualquer passo e há uma resposta directa e matemática |
+| **Sem caixa negra** | Não usa redes neuronais — o utilizador pode questionar qualquer passo e há uma resposta directa e matemática |
 | **Calibração por parque** | G28, G40 e G100 têm classificadores independentes, adaptados às características de cada câmara. Isso trouxe +15 a +20 pp de accuracy vs. thresholds globais |
 | **Votação maioritária** | Se um filtro falha (e.g. sombra engana o Sobel), os outros 3 compensam. Torna o sistema robusto a falhas individuais |
 | **Bons resultados** | G28: 92.3% · G40: 91.7% · G100: 89.4% — com visão clássica, sem GPU, sem dataset de treino próprio |
-| **Visualizador de pipeline** | O botão 🔍 na aplicação mostra em tempo real o que cada filtro vê na vaga seleccionada — útil para demonstrar o funcionamento ao professor |
+| **Visualizador de pipeline** | O botão 🔍 na aplicação mostra em tempo real o que cada filtro vê na vaga seleccionada — útil para demonstrar o funcionamento ao utilizador |
 | **Rápido** | Uma imagem com 100 vagas é classificada em ~1–2 segundos numa máquina normal |
 
 ### Limitações conhecidas
