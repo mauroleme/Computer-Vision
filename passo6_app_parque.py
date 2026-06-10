@@ -4,7 +4,7 @@
 # Alunos: Caio Sant'Ana Oliveira (52963) - Mauro da Silva Leme (a52965)
 #
 # ─────────────────────────────────────────────────────────────────────────────
-# PAPEL NO PROJECTO — APLICACAO PRINCIPAL (DEMO AO PROFESSOR)
+# PAPEL NO PROJECTO — APLICACAO PRINCIPAL (DEMO AO utilizador)
 # ─────────────────────────────────────────────────────────────────────────────
 # Este é o SEXTO e último passo — a aplicacao interactiva que integra tudo:
 #   • Carrega os limiares calibrados (passo3_limiares.json)
@@ -14,7 +14,7 @@
 #   • Permite inspecionar vaga a vaga: features, votos e decisao
 #   • Abre visualizador de pipeline detalhado para cada vaga (passo7_pipeline_viz)
 #
-# COMO USAR (demo ao professor):
+# COMO USAR (demo ao utilizador):
 #   1. python passo6_app_parque.py
 #   2. Clicar "Abrir Imagem" → escolher qualquer .jpg do dataset
 #   3. Clicar "Classificar" → aguardar overlay verde/vermelho
